@@ -115,6 +115,3 @@ function createEncodedDic() {
     fclose($file);
 
 }
-
-createEncodedDic();
-// creare funzione per generare dizionario di parole comuni cifrate con calcolaPagina
