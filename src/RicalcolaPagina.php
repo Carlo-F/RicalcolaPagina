@@ -38,7 +38,7 @@ class RicalcolaPagina {
     public function ricalcola() {
     
         foreach ($this->dictionaryArray as $word) {
-    
+            echo "sto provando: $word<br>";
                 $url = $this->website_base_url.$word.$this->pageExtension;
         
                 $ch = curl_init($url);
